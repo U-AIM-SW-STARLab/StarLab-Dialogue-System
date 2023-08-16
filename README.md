@@ -14,3 +14,8 @@ Dataset은 dbstjswo505@kaist.ac.kr로 문의 바랍니다.
 ```
   python generate.py --model_checkpoint log/exp/ --output result.json --beam_search
 ```
+
+# Evaluation
+```
+bash dstc7avsd_eval.sh ./sample/result.json
+```
